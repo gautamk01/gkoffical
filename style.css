@@ -1,0 +1,242 @@
+html{
+  scroll-behavior:smooth; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  min-height: 200vh;
+  /*TO make the height and content same*/
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.DP {
+  border: 10px solid #fff;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+  height: 220px;
+  width: 220px;
+  position: relative;
+  left: 40%;
+  top: 25%;
+}
+
+h1.Name {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 26%;
+}
+
+hr.line_1 {
+  position: relative;
+  top: 26%;
+  width: 400px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+p.subpara {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 26%;
+}
+
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(2109.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+/**********************************2nd page*****************/
+.box2 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.container_1 {
+  height: 550px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  border-radius: 50px;
+  /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 100px; */
+}
+
+h1.title_1 {
+  margin: 40px 300px 40px 40px;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #000;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.subpara_2 {
+  margin: 0;
+  margin-left: 40px;
+  margin-right: 100px;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #2A2A2A;
+  position: relative;
+}
+
+.container_2 {
+  height: 550px;
+  width: 50px;
+  position: relative;
+  bottom: 510px;
+  left: 600px;
+}
+
+.container_3 {
+  height: 550px;
+  width: 500px;
+  background-image: url(my.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 1060px;
+  left: 670px;
+  border-radius: 50px;
+  /* border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; */
+}
+
+/**********************************3rd page*****************/
+.box3 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container_4 {
+  position: relative;
+  left: 300px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_4 .box_img {
+  position: relative;
+  width: 275px;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.container_4 .box_img:hover {
+  z-index: 1;
+  transform: scale(1.25);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+}
+
+.container_4 .box_img .imgBX::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(180deg, white, #000);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.container_4 .box_img:hover .imgBX::before {
+  opacity: 1;
+}
+
+h1.title_2 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.container_4 .box_img .content_box {
+  position: absolute;
+  top: -30px;
+  left: -15px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+.container_4 .box_img .content_box h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+}
+
+.container_4 .box_img:hover .content_box h2 {
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+.container_4 .box_img .content_box p {
+  color: #fff;
+  transform: translateY(200px);
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.container_4 .box_img:hover .content_box p {
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+/**********************************4th page*****************/
+.box4 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image3.jpg);
+  background-size: cover;
+  background-position: center;
+}
