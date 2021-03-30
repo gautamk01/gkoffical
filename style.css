@@ -350,3 +350,11 @@ h1.title_2 {
 .social_media a.Gm:hover {
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(225, 225, 225, 1) 0.2%, rgba(210, 208, 208, 1) 100.3%);
 }
+
+
+.foot{
+  text-align: center;
+  position: relative;
+  top: 300px;
+  background: linear-gradient(-20deg, #8EC5FC 0%, #E0C3FC 100%);
+}
