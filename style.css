@@ -133,7 +133,7 @@ h1.title_1 {
 .box3 {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 200vh;
   width: 100;
   background-image: url(Bskill.jpg);
   background-size: cover;
@@ -287,16 +287,19 @@ h1.title_2 {
 .social_media{
   margin-top: 40px;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
  .social_media a {
   background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%, rgba(85, 88, 218, 1) 0%, rgba(95, 209, 249, 1) 100.2%);
-  height: 10px;
-  padding: 15px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  padding: 9px;
   margin:0 10px;
   border-radius: 8px;
-  position: relative;
-  left: 50px;
   text-decoration: none;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.4);
   transition: transform 1s;
