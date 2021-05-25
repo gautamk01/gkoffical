@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="form_style.css" />
+    <title>Form</title>
+  
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">Registeration</div>
+      <form name="MYF" action="#">
+        <div class="user_detail">
+          <div class="input">
+            <span class="tabs">First Name</span>
+            <input type="text" name ="First" placeholder="Enter your First name " required />
+          </div>
+          <div class="input">
+            <span class="tabs">Last Name</span>
+            <input type="text" placeholder="Enter your last name " required />
+          </div>
+          <div class="input">
+            <span class="tabs">Date of Birth</span>
+            <input type="date" name="date" />
+          </div>
+          <div class="input">
+            <span class="tabs">Email</span>
+            <input type="email" placeholder="Enter your Email" required />
+          </div>
+          <div class="input">
+            <span class="tabs">Phone Number</span>
+            <input
+              type="number"
+              placeholder="Enter your Phone number"
+              required
+            />
+          </div>
+          <div class="input">
+            <span class="tabs">Roll NO.</span>
+            <input type="text" placeholder="Enter your Roll No." required />
+          </div>
+          <div class="input">
+            <span class="tabs">Password</span>
+            <input type="password" placeholder="Enter your password" required />
+          </div>
+          <div class="input">
+            <span class="tabs">Conformed Password</span>
+            <input
+              type="password"
+              placeholder="Enter your Conformed password"
+              required
+            />
+          </div>
+        </div>
+        <div class="line"></div>
+        <span class="tabs">Gender</span>
+        <div class="radio">
+          <input type="radio" id="home" name="use" class="point" />
+          <label for="Home">Male</label><br />
+          <input type="radio" id="Business" name="use" class="point" />
+          <label for="Business">Female</label><br />
+        </div>
+        <div class="btn_pos">
+          <button type="button" name="button" class="btn">Registeration</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+    'use strict';
+    console.log("completed");
+    let v = document.querySelector('.btn');
+    v.addEventListener('click',function(){
+      alert('Registration is Completed')
+    });
+    console.log(document.querySelector('input').value.trim());
+  </script>
+</html>

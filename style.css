@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,500&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -376,6 +378,8 @@ h1.title_2 {
 
 }
 
+
+
 /*******************************Desktop size ****************************************/
 
 @media only screen and (min-width: 767px){
@@ -615,8 +619,107 @@ h1.title_2 {
     transform: translateY(0);
     transition-delay: 0.5s;
   }
+ /**********************************4th page*****************/
+ .box5 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  background-position: center;
 
-  /**********************************4th page*****************/
+  min-height: 100vh;
+}
+
+
+.Activity_box{
+  border-radius: 10px;
+  height: 60%;
+  width: 20%;
+  margin-left: 130px;
+ display: flex;
+ align-self: center;
+ justify-self: center;
+  background-color:#00acee;
+}
+
+.Aimg1{
+  height: 80%;
+  width: 100%;
+  padding: 10px;
+  background-image: url(jsgame.jpg);
+  background-size: 106%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #f7504f;
+  transition: transform .6s;
+}
+.Aimg1:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.Aimg2:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.Aimg3:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.heading {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+.Aimg2{
+  padding: 10px;
+  height: 80%;
+  width: 100%;
+  background-image: url(Forms.png);
+  background-size: 96%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #000;
+  transition: transform .6s;
+}
+.Aimg3{
+  padding: 10px;
+  height: 80%;
+  width: 100%;
+  background-image: url(gallery.jpeg);
+  background-size: 96%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #f7504f;
+  transition: transform .6s;
+}
+
+.Text{
+  position: relative;
+  top: 95%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'KoHo', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+  /**********************************5th page*****************/
   .Contact_box {
     height: 500px;
     width: 1200px;
