@@ -135,7 +135,7 @@ h1.title_1 {
 .box3 {
   margin: 0;
   padding: 0;
-  height: 200vh;
+  height: 170vh;
   width: 100;
   background-image: url(Bskill.jpg);
   background-size: cover;
@@ -254,6 +254,105 @@ h1.title_2 {
   transition-delay: 0.5s;
 }
 /**************************** page 4 ******************************************************/
+.box5 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.Activity_box{
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  height: 30%;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 150px ;
+
+}
+
+.Aimg1{
+  height: 30%;
+  width: 100%;
+  padding: 10px;
+  background-image: url(jsgame.jpg);
+  background-size: 106%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #f7504f;
+  transition: transform .6s;
+}
+.Aimg1:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.Aimg2:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.Aimg3:hover{
+  box-shadow: 2px 2px 34px 21px rgb(19, 18, 18);
+  border-radius: 10px;
+  transform: scale(0.9);
+
+}
+.heading {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+.Aimg2{
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  background-image: url(Forms.png);
+  background-size: 106%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #f7504f;
+  transition: transform .6s;
+}
+.Aimg3{
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  background-image: url(gallery.jpeg);
+  background-size: 106%;
+  background-position: -1px;
+  border-radius:10px 10px 0 0 ;
+  background-color: #f7504f;
+  transition: transform .6s;
+}
+
+.Text{
+  position: relative;
+  top: 95%;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'KoHo', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+/**************************** page 5 ******************************************************/
 
 .Contact_box {
   height: 200px;
